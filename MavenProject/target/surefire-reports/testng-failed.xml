@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="hrmPIM.CreateEmployeeTest">
+        <methods>
+          <include name="createEmp"/>
+        </methods>
+      </class> <!-- hrmPIM.CreateEmployeeTest -->
+      <class name="hrmPIM.New2Test">
+        <methods>
+          <include name="delEmp"/>
+          <include name="beforeclass"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- hrmPIM.New2Test -->
+      <class name="hrmPIM.DeleteEmployeeTest">
+        <methods>
+          <include name="DelEmp"/>
+        </methods>
+      </class> <!-- hrmPIM.DeleteEmployeeTest -->
+      <class name="hrmPIM.New1Test">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="beforemethod"/>
+          <include name="createEmp"/>
+        </methods>
+      </class> <!-- hrmPIM.New1Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

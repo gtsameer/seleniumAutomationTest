@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66570" started-at="2016-11-15T17:54:35Z" finished-at="2016-11-15T17:55:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="66570" started-at="2016-11-15T17:54:35Z" finished-at="2016-11-15T17:55:41Z">
+      <class name="hrmPIM.DeleteEmployeeTest">
+        <test-method status="PASS" signature="DelEmp()[pri:0, instance:hrmPIM.DeleteEmployeeTest@5b275dab]" name="DelEmp" duration-ms="26134" started-at="2016-11-15T23:25:15Z" finished-at="2016-11-15T23:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DelEmp -->
+      </class> <!-- hrmPIM.DeleteEmployeeTest -->
+      <class name="hrmPIM.CreateEmployeeTest">
+        <test-method status="PASS" signature="createEmp()[pri:0, instance:hrmPIM.CreateEmployeeTest@1bce4f0a]" name="createEmp" duration-ms="40379" started-at="2016-11-15T23:24:35Z" finished-at="2016-11-15T23:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmp -->
+      </class> <!-- hrmPIM.CreateEmployeeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

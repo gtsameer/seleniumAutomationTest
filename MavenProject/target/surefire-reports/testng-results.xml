@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="218793" started-at="2017-01-10T04:55:29Z" finished-at="2017-01-10T04:59:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="218793" started-at="2017-01-10T04:55:29Z" finished-at="2017-01-10T04:59:08Z">
+      <class name="hrmPIM.DeleteEmployeeTest">
+        <test-method status="PASS" signature="DelEmp()[pri:0, instance:hrmPIM.DeleteEmployeeTest@2096442d]" name="DelEmp" duration-ms="33232" started-at="2017-01-10T10:27:22Z" finished-at="2017-01-10T10:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DelEmp -->
+      </class> <!-- hrmPIM.DeleteEmployeeTest -->
+      <class name="hrmPIM.CreateEmployeeTest">
+        <test-method status="PASS" signature="createEmp()[pri:0, instance:hrmPIM.CreateEmployeeTest@15975490]" name="createEmp" duration-ms="112153" started-at="2017-01-10T10:25:29Z" finished-at="2017-01-10T10:27:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmp -->
+      </class> <!-- hrmPIM.CreateEmployeeTest -->
+      <class name="hrmPIM.New2Test">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:hrmPIM.New2Test@36f6e879]" name="beforeclass" is-config="true" duration-ms="14913" started-at="2017-01-10T10:28:26Z" finished-at="2017-01-10T10:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:hrmPIM.New2Test@36f6e879]" name="beforemethod" is-config="true" duration-ms="11597" started-at="2017-01-10T10:28:41Z" finished-at="2017-01-10T10:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="delEmp()[pri:0, instance:hrmPIM.New2Test@36f6e879]" name="delEmp" duration-ms="12930" started-at="2017-01-10T10:28:53Z" finished-at="2017-01-10T10:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delEmp -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:hrmPIM.New2Test@36f6e879]" name="aftermethod" is-config="true" duration-ms="969" started-at="2017-01-10T10:29:06Z" finished-at="2017-01-10T10:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:hrmPIM.New2Test@36f6e879]" name="afterclass" is-config="true" duration-ms="1251" started-at="2017-01-10T10:29:07Z" finished-at="2017-01-10T10:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- hrmPIM.New2Test -->
+      <class name="hrmPIM.New1Test">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:hrmPIM.New1Test@9f70c54]" name="beforeclass" is-config="true" duration-ms="11816" started-at="2017-01-10T10:27:55Z" finished-at="2017-01-10T10:28:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:hrmPIM.New1Test@9f70c54]" name="beforemethod" is-config="true" duration-ms="8152" started-at="2017-01-10T10:28:07Z" finished-at="2017-01-10T10:28:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="createEmp()[pri:0, instance:hrmPIM.New1Test@9f70c54]" name="createEmp" duration-ms="9510" started-at="2017-01-10T10:28:15Z" finished-at="2017-01-10T10:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEmp -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:hrmPIM.New1Test@9f70c54]" name="aftermethod" is-config="true" duration-ms="1110" started-at="2017-01-10T10:28:24Z" finished-at="2017-01-10T10:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:hrmPIM.New1Test@9f70c54]" name="afterclass" is-config="true" duration-ms="1116" started-at="2017-01-10T10:28:25Z" finished-at="2017-01-10T10:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- hrmPIM.New1Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
